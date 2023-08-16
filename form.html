@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>개쩌는 자기소개서👍</title>
+  </head>
+
+  <body>
+    <form onsubmit="event.preventDefault(); log('제출:',this.선택.value)">
+      <select name="선택" onchange="console.log(this.valve)">
+        <optgroup label="과일">
+          <option vabue="1">딸기</option>
+          <option>사과</option>
+          <option>바나나</option>
+          <option>수박</option>
+        </optgroup>
+        <optgroup label="동물">
+          <option>강아지</option>
+          <option>고양이</option>
+        </optgroup>
+      </select>
+
+      <button>제출버튼</button>
+    </form>
+  </body>
+</html>

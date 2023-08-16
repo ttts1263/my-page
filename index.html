@@ -2,27 +2,35 @@
   <head>
     <title>개쩌는 자기소개서👍</title>
     <style>
-      .id {
-        color: red;
-        font-size: 20px;
-        font-weight: 700; /* bold */
-        text-align: right;
+      .layout {
+        height: 500px;
+        width: 100%;
+        position: relative;
       }
-      .border {
-        border: 1px solid black;
-        border-width 1px 2px 3px;
-        border-style: solid;
-        border-color: blue red green yellow;
+      .menu {
+        background-color: blue;
+        height: 100%;
+        width: 100px;
+        margin: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      .contents {
+        background-color: green;
+        height: 100%;
+        width: 400px;
+        position: absolute;
+        top: 0px;
+        left: 100px;
       }
     </style>
   </head>
 
   <body>
-    <form>
-      <input class="id" name="id" value="123" />
-      <input name="age" value="17" />
-      <button type="submit">제출버튼</button>
-    </form>
-    <div class="border">보더스타일</div>
+    <div class="layout">
+      <div class="menu">1번영역</div>
+      <div calss="contents">2번영역</div>
+    </div>
   </body>
 </html>
