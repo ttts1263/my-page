@@ -2,29 +2,46 @@
   <head>
     <title>개쩌는 자기소개서👍</title>
     <style>
-      .wrapper {
-        height: 500px;
-        background-color: skyblue;
+      body {
+        margin: 0px;
+        padding-top: 86px;
       }
-      .center {
-        background-color: yellow;
-        width: 300px;
-        height: 100%;
-        margin: auto;
+      .title {
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+        left: 0px;
+      }
+      .menu-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
       }
     </style>
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="center">
-        지방자치단체는 주민의 복리에 관한 사무를 처리하고 재산을 관리하며,
-        법령의 범위안에서 자치에 관한 규정을 제정할 수 있다. 헌법재판소의 조직과
-        운영 기타 필요한 사항은 법률로 정한다. 국회나 그 위원회의 요구가 있을
-        때에는 국무총리·국무위원 또는 정부위원은 출석·답변하여야 하며, 국무총리
-        또는 국무위원이 출석요구를 받은 때에는 국무위원 또는 정부위원으로 하여금
-        출석·답변하게 할 수 있다.
-      </div>
+    <header class="title">
+      제목
+      <h1>제목</h1>
+    </header>
+
+    <nav>
+      <ul class="menu-list">
+        <li><a href="/">내정보</a></li>
+        <li><a href="/dream">꿈</a></li>
+        <li><a href="/like">좋아하는것</a></li>
+        <li><a href="/dislike">싫어하는것</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <div>내정보</div>
+      <div>이름</div>
+      <div>나이</div>
+      <div>이메일</div>
+      <div>연락처</div>
+      <div>SNS</div>
     </div>
   </body>
 </html>
