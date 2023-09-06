@@ -1,3 +1,6 @@
-body {
-    background-color: green;
+.apple {
+  float: left;
+}
+.apple-img-div{
+    min-height: 80px;
 }
