@@ -53,3 +53,15 @@
   .card-item div {
     padding-left: 20px;
   }
+
+  .comment {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .comment > textarea {
+    flex-grow: 1;
+  }
+  .comment > button {
+    flex-grow: 0;
+  }
