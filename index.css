@@ -65,3 +65,20 @@
   .comment > button {
     flex-grow: 0;
   }
+
+  .commentList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .commentDiv {
+    display: flex;
+    gap: 20px;
+    border-top: solid 1px black; 
+    padding: 10px;
+  }
+
+  .commentDiv > .nameSpan{
+    font-weight: bold;
+  }
