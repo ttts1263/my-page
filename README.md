@@ -33,5 +33,8 @@ pnpm i
 
 ## 배포방법
 
-- 배포는 gh-pages를 사용한다.
-- pnpm run deploy
+- 배포는 gh-pages 스크립트를 사용한다.
+
+```bash
+pnpm gh-pages
+```
