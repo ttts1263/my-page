@@ -1,0 +1,20 @@
+{
+  "name": "my-page",
+  "version": "1.0.0",
+  "description": "simple my page using html",
+  "main": "index.js",
+  "scripts": {
+    "gh-pages": "git checkout gh-pages && git rebase main && git push -f && git checkout main"
+  },
+  "keywords": [],
+  "author": "ttts1263",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
