@@ -4,7 +4,7 @@
   "description": "simple my page using html",
   "main": "index.js",
   "scripts": {
-    "gh-pages": "git checkout gh-pages && git rebase main && git push -f && git checkout main"
+    "gh-pages": "git checkout gh-pages && git reset --hard main && git push -f && git checkout main"
   },
   "keywords": [],
   "author": "ttts1263",
