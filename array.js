@@ -41,3 +41,16 @@ newArray.sort((a, b) => a - b);
 console.log(newArray);
 
 newArray.reverse();
+
+// forEach 배열을 순회하는 함수
+array3.forEach((item) => {
+  console.log(item);
+});
+
+// find 조건에 맞는 배열의 원소를 반환하는 함수
+const value = array3.find((item) => item === 3);
+console.log(value);
+
+// filter 조건을 만족하는 원소 배열을 반환하는 함수
+const filtered = array3.filter((item) => item > 10);
+console.log(filtered);
